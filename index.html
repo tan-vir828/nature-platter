@@ -42,11 +42,11 @@
     </style>
 </head>
 
-<body class="sora-font bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3] ">
+<body class="sora-font  ">
     <!-- nav bar -->
 
-    <section>
-        <div class="flex justify-around items-center">
+    <section class="bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]">
+        <div class="hidden lg:flex justify-around items-center mt-11 mb-24">
             <!-- logo -->
             <div>
                 <img src="c2-assets/logo-header.png" alt="">
@@ -54,7 +54,7 @@
 
 
             <!-- middle link -->
-            <div>
+            <div >
                 <ul class="flex gap-x-14 justify-center ">
                     <li><a href="">Product</a></li>
                     <li><a href="">Services</a></li>
@@ -71,12 +71,16 @@
             </div>
 
         </div>
+        <div class="flex justify-between lg:hidden m-5">
+            <img src="c2-assets/logo2.png" alt="">
+            <i class="fa-solid fa-bars text-green-600"></i>
+        </div>
 
         <!-- banner -->
          <div class="items-center ">
-            <div>
-                <h1 class="font-semibold text-6xl text-center">Freshness <span class="text-green-700">You Can <br> Count</span> On, Prices You’ll Love!</h1>
-                <h6 class="text-center" >Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</h6>
+            <div class="w-[70%]  lg:w-[50%] text-center mx-auto" >
+                <h1 class="font-semibold sm:text-3xl lg:text-6xl ">Freshness <span class="text-green-700">You Can Count</span> On, Prices You’ll Love!</h1>
+                <h6 class=" sm:text-sm lg:text-xl" >Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</h6>
             </div>
             <div>
                 <img class="mx-auto" src="c2-assets/hero-vegetables.png" alt="">
@@ -87,7 +91,32 @@
 
     <!-- service -->
      <section>
-        
+        <h1 class="pt-36 pb-12 text-[#179800] pl-20 text-4xl font-semibold">Services</h1>
+        <!-- card container -->
+        <div class="grid lg:grid-cols-3 px-20 pb-36 justify-between">
+            <div class="bg-[#EFEBE3] w-[420px] h-[360px] p-3 justify-center text-center rounded-2xl">
+                <div class="">
+                    <img class="bg-white rounded-full p-3 mx-auto" src="c2-assets/service.png" alt="">
+                </div>
+                <h3 class="font-semibold text-2xl py-4">24/7 Services </h3>
+                <p class="font-light text-xl">Our service is available 24/7, ensuring continuous support and convenience whenever you need assistance, anytime, anywhere.</p>
+            </div>
+            <div class="bg-[#EFEBE3] w-[420px] h-[360px] p-3 justify-center text-center rounded-2xl">
+                <div class="">
+                    <img class="bg-white rounded-full p-3 mx-auto" src="c2-assets/delivery.png" alt="">
+                </div>
+                <h3 class="font-semibold text-2xl py-4">Fast Delivery</h3>
+                <p class="font-light text-xl">We ensure fast delivery with efficiency, reliability, and customer satisfaction, meeting deadlines to exceed expectations every time.</p>
+            </div>
+            <div class="bg-[#EFEBE3] w-[420px] h-[360px] p-3 justify-center text-center rounded-2xl">
+                <div class="">
+                    <img class="bg-white rounded-full p-3 mx-auto" src="c2-assets/healthy.png" alt="">
+                </div>
+                <h3 class="font-semibold text-2xl py-4">Healthy Products </h3>
+                <p class="font-light text-xl">Healthy Products is committed to customer well-being, offering high-quality, natural products with excellent service and transparency.</p>
+            </div>
+            
+        </div>
      </section>
 </body>
 
