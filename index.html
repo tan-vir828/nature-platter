@@ -1,11 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nature Platter</title>
+    <!-- font cdn of sora -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <!-- font cdn of poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awsome -->
+
+    <script src="https://kit.fontawesome.com/1e010a22b4.js" crossorigin="anonymous"></script>
+    <!-- tailwind cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+    <style>
+        .sora-font {
+            font-family: "Sora", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .poppins-regular {
+            font-family: "Poppins", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
 </head>
-<body>
-    
+
+<body class="sora-font bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3] ">
+    <!-- nav bar -->
+
+    <section>
+        <div class="flex justify-around items-center  ">
+            <!-- logo -->
+            <div>
+                <img src="c2-assets/logo-header.png" alt="">
+            </div>
+
+
+            <!-- middle link -->
+            <div>
+                <ul class="flex gap-x-14 justify-center ">
+                    <li><a href="">Product</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+            </div>
+
+            <!-- font awesome part -->
+            <div class="flex gap-x-6">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <button class="btn btn-outline btn-success text-gray-700">Login</button>
+                <button class="btn btn-success text-white">Register</button>
+            </div>
+
+        </div>
+    </section>
 </body>
+
 </html>
